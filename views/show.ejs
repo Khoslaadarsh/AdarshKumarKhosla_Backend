@@ -1,0 +1,14 @@
+<%- include("partials/header") %>
+
+
+<%= newBall %> 
+
+<form action="/balls" method="GET">
+    <input type="submit" value="show history">
+</form>
+
+<form action="/balls/new" method="GET">
+    <input type="submit" value="once more">
+</form>
+
+<%- include("partials/footer") %>
