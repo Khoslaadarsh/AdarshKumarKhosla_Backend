@@ -78,7 +78,6 @@ app.post("/balls",function(req,res){
         if(err){
             res.render("new")
         }else{
-            basicball.push(newBall);
             res.render('show', {newBall:newBall});
         }
     })
